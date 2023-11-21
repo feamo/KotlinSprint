@@ -1,6 +1,6 @@
 package lesson1
 
-fun main(){
+fun main() {
     val totalSeconds = 5678
 
     val hours = totalSeconds / 3600

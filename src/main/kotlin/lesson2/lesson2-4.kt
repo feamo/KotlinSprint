@@ -1,6 +1,6 @@
 package lesson2
 
-fun main(){
+fun main() {
     val crystalsWithoutBuff = 7
     val ironWithoutBuff = 11
 
@@ -10,8 +10,10 @@ fun main(){
     val bonusIron: Int = (ironWithoutBuff * buff) / 100
 
 
-    println("""
+    println(
+        """
             | Bonus crystals: $bonusCrystals
-            | Bonus iron: $bonusIron """)
+            | Bonus iron: $bonusIron """
+    )
 
 }

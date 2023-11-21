@@ -1,11 +1,12 @@
 package lesson1
 
-fun main(){
+fun main() {
     val yearOfFlight: Int = 1961
     var hour = "09"
     var minute = "07"
 
-    println("""
+    println(
+        """
         |Полет Гагарина состоялся в $yearOfFlight году.
         |Время взлета $hour:$minute 
     """.trimMargin()
