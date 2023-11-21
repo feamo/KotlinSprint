@@ -1,6 +1,6 @@
 package lesson2
 
-fun main(){
+fun main() {
 //    averageScore
     val totalEmployee = 50
     val totalTrainee = 30
@@ -10,7 +10,7 @@ fun main(){
 
     val totalCountSalaryEmployee = totalEmployee * salaryEmployee
     val totalCountSalary = (totalEmployee * salaryEmployee) + (totalTrainee * salaryTrainee)
-    val averageSalary = totalCountSalary / (totalEmployee+totalTrainee)
+    val averageSalary = totalCountSalary / (totalEmployee + totalTrainee)
 
-    println( "totalCountSalaryEmployee: $totalCountSalaryEmployee, totalCountSalary: $totalCountSalary, averageSalary: $averageSalary")
+    println("totalCountSalaryEmployee: $totalCountSalaryEmployee, totalCountSalary: $totalCountSalary, averageSalary: $averageSalary")
 }
