@@ -1,4 +1,4 @@
-package lesson1
+git package lesson1
 
 fun main() {
     val yearOfFlight: Int = 1961
